@@ -32,5 +32,6 @@ body {
     border-radius: 3.125rem;
     background: linear-gradient(96deg, #424242 0%, #00428D 100%);
     padding: auto;
+    margin: 8px;
 }
 

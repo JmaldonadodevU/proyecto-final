@@ -9,6 +9,15 @@
     <link rel="stylesheet" href="/css/correct.css">
 </head>
 <body>
+        <!-- Barra de navegacion -->
+        <nav class="navegacion" id="navegacion">
+            <ul>
+                <li><a href="/pages/main.html">HTML</a></li>
+                <li><a href="/pages/">CSS</a></li>
+                <li><a href="/pages/">JAVASCRIPT</a></li>
+            </ul>
+        </nav>
+    <!-- Contenedor principal -->
     <div class="parent">
         <div class="div1">
             <!-- Lista de preguntas sobre HTML -->
@@ -39,16 +48,10 @@
             <!-- Botones para avanzar y mostrar explicación -->
             <button class="explanation-button" onclick="nextQuestion()">Siguiente pregunta</button>
             <button class="next-question-button" onclick="showExplanation()">¿Por qué es correcta?</button>
-
             <script>
             // Función para avanzar a la siguiente pregunta
             function nextQuestion() {
                 window.location.href = "/pages/second.html";
-            }
-
-            // Función para mostrar la explicación de la respuesta correcta
-            function showExplanation() {
-                alert("La etiqueta <h1> define un encabezado de nivel 1, que es el más importante.");
             }
             </script>
         </div>

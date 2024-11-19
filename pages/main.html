@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <!-- Metadatos y configuración de la página -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preguntas sobre HTML</title>
     <link rel="stylesheet" href="/css/style1.css">
 </head>
 <body>
-    <!-- Barra de navegacion -->
+    <!-- Barra de navegación -->
     <nav class="navegacion" id="navegacion">
         <ul>
             <li><a href="/pages/main.html">HTML</a></li>
-            <li><a href="/pages/">CSS</a></li>
-            <li><a href="/pages/">JAVASCRIPT</a></li>
+            <li><a href=>CSS</a></li>
+            <li><a href=>JAVASCRIPT</a></li>
         </ul>
     </nav>
     <!-- Contenedor principal -->
@@ -21,27 +20,28 @@
         <div class="div1">
             <ol>
                 <h2>Preguntas sobre HTML</h2>
-                <li>Encabezados</li>
-                <li>Parrafos</li>
-                <li>Imagenes</li>
+                <li><a href="/pages/main.html">Encabezado</a></li>
+                <li><a href="/pages/second.html">Parrafo</a></li>
+                <li>Imágenes</li>
                 <li>Enlaces</li>
             </ol>
         </div>
         <!-- Sección de pregunta y opciones -->
-        <div class="div2" id="div2"><h3>¿Cual es el elemento html que define un encabezado?</h3>
+        <div class="div2" id="div2">
+            <h3>¿Cuál es el elemento HTML que define un encabezado?</h3>
             <p>Un encabezado en HTML es como el título de una sección. 
             Sirve para organizar el contenido y darle importancia a las 
             partes más relevantes de tu página web. Hay seis niveles de 
-            encabezados</p>
-            <!-- Opción correcta -->
-                        <!--TO DO Remplazar el metodo de comprobacion de respuesta correcta-->
-            <a href="/pages/correct.html"><button class="option" id="answer">h1</button></a>
-            <!-- Otras opciones -->
-            <button class="option" id="option">header</button>
-            <button class="option" id="option">head</button>
-            <button class="option" id="option">title</button>
-        </div>
+            encabezados.</p>
+            <!-- Botones de respuesta -->
+            <button class="option" data-correct="true">h1</button>
+            <button class="option" data-correct="false">header</button>
+            <button class="option" data-correct="false">head</button>
+            <button class="option" data-correct="false">title</button>
         </div>
     </div>
+
+    <!-- Enlace al archivo JavaScript -->
+    <script src="/Javascript/main.js"></script>
 </body>
 </html>

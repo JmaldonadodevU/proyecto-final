@@ -7,42 +7,41 @@
     <link rel="stylesheet" href="/css/style1.css">
 </head>
 <body>
-        <!-- Barra de navegacion -->
-        <nav class="navegacion" id="navegacion">
-            <ul>
-                <li><a href="/pages/main.html">HTML</a></li>
-                <li><a href="/pages/">CSS</a></li>
-                <li><a href="/pages/">JAVASCRIPT</a></li>
-            </ul>
-        </nav>
+    <!-- Barra de navegación -->
+    <nav class="navegacion" id="navegacion">
+        <ul>
+            <li><a href="/pages/main.html">HTML</a></li>
+            <li><a href=>CSS</a></li>
+            <li><a href=>JAVASCRIPT</a></li>
+        </ul>
+    </nav>
     <!-- Contenedor principal -->
     <div class="parent">
         <!-- Sección de lista de preguntas -->
         <div class="div1">
             <ol>
                 <h2>Preguntas sobre HTML</h2>
-                <li>Encabezados</li>
-                <li>Parrafos</li>
-                <li>Imagenes</li>
+                <li><a href="/pages/main.html">Encabezado</a></li>
+                <li><a href="/pages/second.html">Parrafo</a></li>
+                <li>Imágenes</li>
                 <li>Enlaces</li>
             </ol>
         </div>
         <!-- Sección de pregunta y opciones -->
-        <div class="div2">
+        <div class="div2" id="pregunta">
             <h3>¿Cuál es el elemento HTML que define un párrafo?</h3>
             <p>Un párrafo en HTML se utiliza para agrupar bloques de texto. 
             Es una manera de organizar el contenido en secciones más pequeñas 
             y manejables.</p>
-            <!-- Opción correcta --> 
-            <!--TO DO Remplazar el metodo de comprobacion de respuesta correcta-->
-            <a href="/pages/correct.html"><button class="option" id="answer">p</button></a>
-            <!-- Otras opciones -->
-            <button class="option" id="option">div</button>
-            <button class="option" id="option">span</button>
-            <button class="option" id="option">section</button>
-        </div>
-            
+            <!-- Opciones de respuesta -->
+            <button class="option" data-correct="true">p</button>
+            <button class="option" data-correct="false">div</button>
+            <button class="option" data-correct="false">span</button>
+            <button class="option" data-correct="false">section</button>
         </div>
     </div>
+
+    <!-- Enlace al archivo JavaScript -->
+    <script src="/Javascript/main2.js"></script>
 </body>
 </html>
